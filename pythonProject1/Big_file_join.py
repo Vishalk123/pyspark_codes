@@ -7,7 +7,7 @@ import logging
 from pyspark.sql import functions as f
 from pyspark.sql.functions import col, expr, concat, lit, when
 
-# Configuration for Spark
+# Configuration for Spark test
 my_conf = SparkConf()
 my_conf.set("spark.app.name", "spark_session_code")
 my_conf.set("spark.master", "local[*]")
