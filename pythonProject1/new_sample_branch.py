@@ -2,7 +2,7 @@ import argparse
 import json
 
 import requests
-
+# sample rest api in sample branch
 
 def parse_key_value_pairs(items):
     result = {}
