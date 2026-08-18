@@ -1,7 +1,8 @@
 import argparse
 import json
 
-import requests
+# pyright: reportMissingImports=false
+import requests  # type: ignore[import-not-found]
 # sample rest api in sample branch
 
 def parse_key_value_pairs(items):
